@@ -18,6 +18,15 @@ describe('Screeps Integration Test', () => {
             'Test Server disconnected. Must call start() before tick().'));
   });
 
+  it('should throw an error if tick() is called after stop()', async () => {
+    await server.start();
+    await server.stop();
+
+    expect(server.tick())
+        .rejects.toEqual(new Error(
+            'Test Server disconnected. Must call start() before tick().'));
+  });
+
   describe('when server started', () => {
     beforeEach(async () => {
       await server.start();
