@@ -27,5 +27,11 @@
   },
   "peerDependencies": {
     "screeps": "4.x"
+  },
+  "dependencies": {
+    "@brisberg/screeps-test-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "screeps": "^4.1.6"
   }
 }
