@@ -1,0 +1,31 @@
+{
+  "name": "screeps-integration-test",
+  "version": "0.1.0",
+  "description": "Specialized Screeps Private Server with fine-grained control over server ticks. Suitable for unit/integration testing of user scripts.",
+  "main": "index.js",
+  "keywords": [
+    "screeps",
+    "testing"
+  ],
+  "author": "brisberg <brandon.risberg@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "repository": "https://github.com/brisberg/screeps-integration-test.git",
+  "bugs": {
+    "url": "https://github.com/brisberg/screeps-integration-test/issues"
+  },
+  "homepage": "https://github.com/brisberg/screeps-integration-test#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "peerDependencies": {
+    "screeps": "4.x"
+  }
+}
