@@ -19,7 +19,6 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "lib",
     "index.js"
   ],
   "scripts": {

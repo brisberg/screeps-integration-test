@@ -12,7 +12,11 @@ describe('Screeps Integration Test', () => {
     server = undefined;
   });
 
-  it.todo('should throw an error if tick() is called before start()');
+  it('should throw an error if tick() is called before start()', async () => {
+    expect(server.tick())
+        .rejects.toEqual(new Error(
+            'Test Server disconnected. Must call start() before tick().'));
+  });
 
   describe('when server started', () => {
     beforeEach(async () => {
