@@ -38,6 +38,11 @@
   dependencies:
     "@brisberg/common" "github:brisberg/common#no-storage-restart"
 
+"@brisberg/screepsmod-lockstep@^1.1.2":
+  version "1.1.2"
+  resolved "https://npm.pkg.github.com/download/@brisberg/screepsmod-lockstep/1.1.2/206aec09eb810a245f205cb3fcd44cb1c381ef5c33040886a97e4d32392952f1#35db2aed7d605db60d6c0e52d3adc1ce3dd441c2"
+  integrity sha512-YhZAkyWfU2Nns5yycVmAn82OIEGLH5xUHcZm8PqL6PrR1nLDoVPWk7EnEsL0jtnNXHx8mx1oO0F48zu7YxVsWg==
+
 "@screeps/backend@3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@screeps/backend/-/backend-3.1.1.tgz#8d995c9a28c492f649656296095721bf8d2f862f"
@@ -3017,7 +3022,7 @@ q-json-response@^0.1.3:
     lodash "^3.0.1"
     q "^1.1.2"
 
-q@^1.0.1, q@^1.1.2, q@^1.4.1:
+q@^1.0.1, q@^1.1.2, q@^1.4.1, q@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=

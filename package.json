@@ -29,7 +29,9 @@
     "screeps": "4.x"
   },
   "dependencies": {
-    "@brisberg/screeps-test-server": "^0.1.2"
+    "@brisberg/screeps-test-server": "^0.1.2",
+    "@brisberg/screepsmod-lockstep": "^1.1.2",
+    "q": "^1.5.1"
   },
   "devDependencies": {
     "screeps": "^4.1.6"
