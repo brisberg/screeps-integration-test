@@ -5,24 +5,27 @@
   "main": "index.js",
   "keywords": [
     "screeps",
-    "testing"
+    "testing",
+    "typescript"
   ],
   "author": "brisberg <brandon.risberg@gmail.com>",
   "license": "MIT",
-  "private": false,
   "repository": "https://github.com/brisberg/screeps-integration-test.git",
   "bugs": {
     "url": "https://github.com/brisberg/screeps-integration-test/issues"
   },
   "homepage": "https://github.com/brisberg/screeps-integration-test#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "index.js"
   ],
   "scripts": {
-    "test": "jest --runInBand"
+    "build": "tsc",
+    "run": "node lib/index.js",
+    "test": "jest --runInBand",
+    "lint": "eslint \"src/**/*.ts\""
   },
   "peerDependencies": {
     "screeps": "4.x"
@@ -33,7 +36,15 @@
     "q": "^1.5.1"
   },
   "devDependencies": {
-    "jest": "^26.0.1",
-    "screeps": "^4.1.6"
+    "@types/jest": "^26.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "clang-format": "^1.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^26.1.0",
+    "screeps": "^4.1.6",
+    "ts-jest": "^26.1.1",
+    "typescript": "3.9.4"
   }
 }

@@ -1,8 +1,14 @@
 # NPM Modules
-node_modules/
+/node_modules
 
-# Server test env
-server
+# Built files
+/lib
 
 # Log files
 yarn-error.log
+
+# OS Files
+.DS_Store
+
+# Server test env
+server
