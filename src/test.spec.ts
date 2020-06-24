@@ -1,7 +1,7 @@
-const ScreepsIntegrationTest = require('./index');
+import ScreepsIntegrationTest from './index';
 
 describe('Screeps Integration Test', () => {
-  let server;
+  let server: ScreepsIntegrationTest;
 
   beforeEach(() => {
     server = new ScreepsIntegrationTest();
@@ -9,7 +9,6 @@ describe('Screeps Integration Test', () => {
 
   afterEach(async () => {
     await server.stop();
-    server = undefined;
   });
 
   it('should throw an error if tick() is called before start()', async () => {

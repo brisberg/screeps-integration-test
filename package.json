@@ -2,7 +2,8 @@
   "name": "@brisberg/screeps-integration-test",
   "version": "0.1.2",
   "description": "Specialized Screeps Private Server with fine-grained control over server ticks. Suitable for unit/integration testing of user scripts.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "keywords": [
     "screeps",
     "testing",
@@ -19,11 +20,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "files": [
-    "index.js"
+    "lib/index.js",
+    "lib/index.d.ts"
   ],
   "scripts": {
     "build": "tsc",
-    "run": "node lib/index.js",
     "test": "jest --runInBand",
     "lint": "eslint \"src/**/*.ts\""
   },
@@ -31,8 +32,9 @@
     "screeps": "4.x"
   },
   "dependencies": {
-    "@brisberg/screeps-test-server": "^0.1.2",
-    "@brisberg/screepsmod-lockstep": "^1.1.2",
+    "@brisberg/screeps-test-server": "^0.2.1",
+    "@brisberg/screepsmod-lockstep": "^1.2.0",
+    "@types/q": "^1.5.4",
     "q": "^1.5.1"
   },
   "devDependencies": {
