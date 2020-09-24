@@ -12,5 +12,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added simple ScreepsIntegrationTest class which wraps a screeps private server with a tick() method.
 
-[Unreleased]: https://github.com/brisberg/<package-name>/compare/v0.1.2...HEAD
-[0.1.2]: https://github.com/brisberg/<package-name>/releases/tag/v0.1.2
+[Unreleased]: https://github.com/brisberg/screeps-integration-test/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/brisberg/screeps-integration-test/releases/tag/v0.1.2

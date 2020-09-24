@@ -11,12 +11,10 @@
     "sourceMap": true,
     "declaration": true,
     "strict": true,
-    "allowUnreachableCode": false,
-    "esModuleInterop": true,
     "experimentalDecorators": false,
-    "forceConsistentCasingInFileNames": true,
-    "importHelpers": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "allowUnreachableCode": false
   },
   "include": [
     "src/**/*.ts"

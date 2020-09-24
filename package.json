@@ -3,7 +3,6 @@
   "version": "0.1.2",
   "description": "Specialized Screeps Private Server with fine-grained control over server ticks. Suitable for unit/integration testing of user scripts.",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "keywords": [
     "screeps",
     "testing",
@@ -11,13 +10,14 @@
   ],
   "author": "brisberg <brandon.risberg@gmail.com>",
   "license": "MIT",
+  "private": false,
   "repository": "https://github.com/brisberg/screeps-integration-test.git",
   "bugs": {
     "url": "https://github.com/brisberg/screeps-integration-test/issues"
   },
   "homepage": "https://github.com/brisberg/screeps-integration-test#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "lib/index.js",
@@ -39,15 +39,15 @@
     "q": "^1.5.1"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.3",
-    "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^3.5.0",
+    "@types/jest": "24",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "clang-format": "^1.4.0",
     "eslint": "^7.3.1",
     "eslint-config-google": "^0.14.0",
-    "jest": "^26.1.0",
+    "jest": "24",
     "screeps": "^4.1.6",
-    "ts-jest": "^26.1.1",
-    "typescript": "3.9.6"
+    "ts-jest": "24",
+    "typescript": "3.9.4"
   }
 }
