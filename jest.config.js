@@ -1,5 +1,5 @@
 module.exports = {
-  // -- Default JestSettings (brisberg/typescript-pkg)
+  // -- Default JestSettings (brisberg/typescript-pkg-cruft)
 
   // An array of glob patterns indicating a set of files for which coverage
   // information should be collected

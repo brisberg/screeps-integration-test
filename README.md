@@ -10,6 +10,6 @@ Specialized Screeps Private Server with fine-grained control over server ticks. 
 
 ## Toolchain
 
-Uses [@brisberg/typescript-pkg](https://github.com/brisberg/typescript-pkg) as a template for Toolchain configuration.
+Uses [@brisberg/typescript-pkg-cruft](https://github.com/brisberg/typescript-pkg-cruft) as a template for Toolchain configuration.
 
 See that repo for a list of tools, documentation, and upgrade steps.

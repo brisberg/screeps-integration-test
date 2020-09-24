@@ -35,18 +35,19 @@
     "@brisberg/screeps-test-server": "^0.2.1",
     "@brisberg/screepsmod-lockstep": "^1.2.0",
     "@types/q": "^1.5.4",
+    "tslib": "^2.0.0",
     "q": "^1.5.1"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
+    "@types/jest": "^26.0.3",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
     "clang-format": "^1.4.0",
     "eslint": "^7.3.1",
     "eslint-config-google": "^0.14.0",
     "jest": "^26.1.0",
     "screeps": "^4.1.6",
     "ts-jest": "^26.1.1",
-    "typescript": "3.9.4"
+    "typescript": "3.9.6"
   }
 }
