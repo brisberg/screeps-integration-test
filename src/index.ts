@@ -1,14 +1,11 @@
 import {ScreepsTestServer} from '@brisberg/screeps-test-server';
-// import {
-//   LOCKSTEP_LOCKED,
-//   LOCKSTEP_UNLOCK,
-// } from '@brisberg/screepsmod-lockstep/constants';
+import {
+  LOCKSTEP_LOCKED,
+  LOCKSTEP_UNLOCK,
+} from '@brisberg/screepsmod-lockstep/lib/constants';
 import path from 'path';
 import q from 'q';
 
-// TODO: Import these constants from lockstep mod
-const LOCKSTEP_LOCKED = 'lockstep:locked';
-const LOCKSTEP_UNLOCK = 'lockstep:unlock';
 
 interface ScreepsIntegrationTestOptions {
   silent?: boolean;
